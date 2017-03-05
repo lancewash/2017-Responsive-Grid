@@ -1,0 +1,68 @@
+button,
+.button {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  letter-spacing: 1px;
+  min-width: 12rem;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.25); }
+  button.inverse,
+  .button.inverse {
+    background: transparent;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.25); }
+    button.inverse:hover,
+    .button.inverse:hover {
+      background: rgba(0, 0, 0, 0.25);
+      border: 1px solid rgba(255, 255, 255, 0.5); }
+
+input.button {
+  height: auto; }
+
+button:hover,
+.button:hover {
+  outline: none;
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.75); }
+
+.button:disabled,
+.button.disabled {
+  cursor: default;
+  font-style: normal;
+  opacity: .5; }
+  .button:disabled:hover,
+  .button.disabled:hover {
+    color: #000;
+    box-shadow: none; }
+
+.button.outline {
+  background: none; }
+
+.button.outline:hover {
+  color: rgba(0, 0, 0, 0.6);
+  border-color: rgba(0, 0, 0, 0.2);
+  box-shadow: none; }
+
+.button.outline,
+.button.outline:disabled:hover,
+.button.outline.disabled:hover {
+  color: rgba(0, 0, 0, 0.8);
+  border-color: rgba(0, 0, 0, 0.4); }
+
+.buttons.group {
+  display: inline-block;
+  vertical-align: bottom; }
+  .buttons.group .button {
+    float: left;
+    margin-left: -1px;
+    border-radius: 0; }
+    .buttons.group .button:first-child {
+      border-radius: 4px 0 0 4px; }
+    .buttons.group .button:last-child {
+      border-radius: 0 4px 4px 0; }

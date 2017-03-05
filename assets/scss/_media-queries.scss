@@ -1,0 +1,45 @@
+
+
+@mixin breakpoint($point) {
+
+  @if $point == xxxlarge{
+    @media (min-width: 105rem) { @content ; }
+  }
+  @else if $point == xxlarge {
+    @media (min-width: 90rem) { @content ; }
+  }
+  @else if $point == xlarge {
+    @media (min-width: 75rem) { @content ; }
+  }
+  @else if $point == large {
+    @media (min-width: 64rem)  { @content ; }
+  }
+  @else if $point == medium {
+    @media (max-width: 40rem) { @content; }
+  }
+  @else if $point == small {
+    @media (max-width: 30rem)  { @content ; }
+  }
+}
+
+//@mixin breakpoint($point) {
+//
+//  @if $point == xxxlarge{
+//    @media (min-width: 105rem) { @content ; }
+//  }
+//  @else if $point == xxlarge {
+//    @media (min-width: 90rem) { @content ; }
+//  }
+//  @else if $point == xlarge {
+//    @media (min-width: 75rem) { @content ; }
+//  }
+//  @else if $point == large {
+//    @media (min-width: 64rem)  { @content ; }
+//  }
+//  @else if $point == medium {
+//    @media (max-width: 40rem) { @content; }
+//  }
+//  @else if $point == small {
+//    @media (max-width: 30rem)  { @content ; }
+//  }
+//}

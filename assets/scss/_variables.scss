@@ -1,0 +1,107 @@
+
+
+
+// FontFamily
+$font-family:                           'Helvetica Neue', Helvetica, sans-serif !default;
+$font-family-heading:                   'Helvetica Neue', Helvetica, sans-serif !default;
+$font-family-heading-bolder:            'Helvetica Neue', Helvetica, sans-serif !default;
+$font-family-heading-light:             'Helvetica Neue', Helvetica, sans-serif !default;
+
+
+// Baseline
+$base-unit:                             4px !default;
+$base-line:                             24px !default;
+$base-line-small:                       20px !default;
+$base-line-smaller:                     16px !default;
+
+
+// Text font size
+$font-size-base:                        16px !default;
+$font-size-small:                       14px !default;
+$font-size-smaller:                     12px !default;
+$font-size-smallest:                    10px !default;
+$font-size-large:                       18px !default;
+$font-size-larger:                      20px !default;
+$font-size-largest:                     24px !default;
+
+
+// Headings
+$font-size-title:                       60px !default;
+$font-size-h1:                          52px !default;
+$font-size-h2:                          38px !default;
+$font-size-h3:                          30px !default;
+$font-size-h4:                          24px !default;
+$font-size-h5:                          20px !default;
+$font-size-h6:                          12px !default;
+
+$line-height-title:                     64px !default;
+$line-height-h1:                        56px !default;
+$line-height-h2:                        50px !default;
+$line-height-h3:                        40px !default;
+$line-height-h4:                        32px !default;
+$line-height-h5:                        26px !default;
+$line-height-h6:                        20px !default;
+
+
+// Spaces
+$heading-margin-bottom:                 12px !default;
+$paragraph-margin-bottom:               16px !default;
+
+
+// Color
+$text-color-body:                       #555 !default;
+$text-color-heading:                    #004462 !default;
+$text-color-input:                      #555 !default;
+
+$text-color-primary:                    #fff !default;
+$text-color-secondary:                  #fff !default;
+$text-color-tertiary:                   #fff !default;
+
+$color-white:                           rgba(255,255,255,1) !default;
+$color-white-85:                        rgba(0,0,0,.85) !default;
+$color-white-75:                        rgba(0,0,0,.75) !default;
+$color-white-5:                         rgba(0,0,0,.5) !default;
+$color-white-25:                        rgba(0,0,0,.25) !default;
+$color-light-gray:                      #efefef !default;
+$color-mid-gray:                        #ccc !default;
+$color-gray-555:                        #555 !default;
+$color-gray-777:                        #777 !default;
+$color-dark-gray:                       #333 !default;
+$color-black:                           rgba(0,0,0,1) !default;
+$color-black-85:                        rgba(0,0,0,.85) !default;
+$color-black-75:                        rgba(0,0,0,.75) !default;
+$color-black-5:                         rgba(0,0,0,.5) !default;
+$color-black-25:                        rgba(0,0,0,.25) !default;
+
+
+// Links
+$color-links:                           #333 !default;
+$color-links-hover:                     #333 !default;
+
+
+// Background
+$background-color-body:                 #efefef !default;
+$background-color-highlight:            #333 !default;
+
+
+// Button
+$button-background-color:               #99351f !default;
+$button-font-weight:                    600 !default;
+$button-outline-font-weight:            normal !default;
+$button-outline-border-size:            1px !default;
+$button-padding-small:                  6px 20px !default;
+$button-padding:                        14px 50px !default;
+$button-padding-big:                    14px 48px !default;
+
+
+// Height
+$ui-height-small:                       32px !default;
+$ui-line-height-small:                  32px !default;
+$ui-height:                             40px !default;
+$ui-line-height:                        38px !default;
+$ui-height-big:                         48px !default;
+$ui-line-height-big:                    46px !default;
+
+
+// Overlay
+$overlay-background-color:              rgba(0,0,0,.75) !default;
