@@ -226,14 +226,7 @@
 .twelve,
 .thirteen,
 .fourteen,
-.fifteen {
-  -webkit-flex-basis: 100%;
-  -ms-flex-preferred-size: 100%;
-  flex-basis: 100%;
-  max-width: 100%;
-  width: 100%;
-}
-
+.fifteen,
 .sixteen {
   -webkit-flex-basis: 100%;
   -ms-flex-preferred-size: 100%;
@@ -260,7 +253,7 @@
   margin-left: 0;
 }
 
-@include breakpoint(xlarge) {
+@include breakpoint(x-lg) {
 
   .one {
     -webkit-flex-basis: 6.25%;
