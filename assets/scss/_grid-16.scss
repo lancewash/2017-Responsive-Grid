@@ -253,7 +253,7 @@
   margin-left: 0;
 }
 
-@include breakpoint-width(xlg) {
+@include width(xlg) {
 
   .one {
     -webkit-flex-basis: 6.25%;
