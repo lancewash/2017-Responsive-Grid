@@ -219,7 +219,9 @@
 .twelve,
 .thirteen,
 .fourteen,
-.fifteen {
+.fifteen,
+.offset-half,
+.offset-quarter {
   -webkit-flex-basis: 100%;
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
@@ -249,7 +251,9 @@
 .offset-twelve,
 .offset-thirteen,
 .offset-fourteen,
-.offset-fifteen {
+.offset-fifteen,
+.offset-half,
+.offset-quarter {
   margin-left: 0;
 }
 
@@ -279,7 +283,7 @@
     width: 18.75%;
   }
 
-  .four {
+  .four, .quarter {
     -webkit-flex-basis: 25%;
     -ms-flex-preferred-size: 25%;
     flex-basis: 25%;
@@ -311,7 +315,7 @@
     width: 43.75%;
   }
 
-  .eight {
+  .eight, .half {
     -webkit-flex-basis: 50%;
     -ms-flex-preferred-size: 50%;
     flex-basis: 50%;
@@ -411,7 +415,7 @@
     margin-left: 43.75%;
   }
 
-  .offset-eight {
+  .offset-eight, .offset-half {
     margin-left: 50%;
   }
 
